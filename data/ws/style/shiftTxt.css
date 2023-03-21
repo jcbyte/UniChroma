@@ -1,0 +1,26 @@
+.rainbowText {
+	color: white;
+	background: repeating-linear-gradient(
+		-45deg,
+		rgba(252, 244, 201, 1) 0%,
+		rgba(254, 227, 226, 1) 8.3%,
+		rgba(251, 205, 242, 1) 16.7%,
+		rgba(232, 190, 250, 1) 25%,
+		rgba(171, 191, 255, 1) 33.3%,
+		rgba(187, 243, 192, 1) 41.7%,
+		rgba(252, 244, 201, 1) 50%
+	);
+	background-size: 60vw 60vw;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: slide 4s linear infinite forwards;
+}
+@keyframes slide {
+	0% {
+		background-position-x: 0%;
+	}
+	100% {
+		background-position-x: 60vw;
+	}
+}

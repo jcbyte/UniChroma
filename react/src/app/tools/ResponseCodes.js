@@ -1,0 +1,7 @@
+export const RESPONSE = {
+	ERROR_SAVING: 3,
+	ERROR_LOADING: 4,
+	OK: 200,
+	BAD_REQUEST: 400,
+	NOT_FOUND: 404,
+};
