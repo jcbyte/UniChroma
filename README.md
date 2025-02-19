@@ -1,6 +1,6 @@
 # UniChroma
 
-An ARGB LED Controller web app which runs from an ESP8622.
+A web app for controlling ARGB LEDs, hosted on an ESP8266.
 
 ## Features
 
