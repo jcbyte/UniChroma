@@ -10,12 +10,6 @@ Every LED in the strip can be individually controlled, or as a group and has mod
 - Cycle colours.
 - Wave (must select multiple LEDS).
 
-# Tech Stack
+## Licence
 
-**Client:** React, Javascript, Material UI
-
-**Backend:** Arduino framework, C++
-
-# Authors
-
-- [@jcbyte](https://github.com/jcbyte)
+[Apache License 2.0](LICENSE)
